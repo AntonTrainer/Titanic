@@ -1,2 +1,2 @@
-# Titanic
-Kaggle Titanic Competition Submission Source 77.99%
+# Kaggle Practice
+Kaggle Knowledge 
