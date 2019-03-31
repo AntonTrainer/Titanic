@@ -5,7 +5,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split #built in training data splitter
 from sklearn.metrics import accuracy_score #built in sci kit tool to measure accuracy, try to build without this after the model is functioning 
 from sklearn.model_selection import cross_val_score
-# import seaborn as sb
 
 import matplotlib.pyplot as plt 
 
@@ -55,6 +54,7 @@ test = test.drop(['Name', 'Ticket', 'Cabin', 'Age','Sex'], axis =1) #drop the me
 df = test 
 fig, ax1 = plt.subplots(1,1)
 sb.heatmap(df, ax=ax1, alpha=0.1)'''
+
 #------------------------------------------------Splitting the Data -------------------------------------------------------------------------
 #Splitting Training data to train and test then check accuracy  
 
